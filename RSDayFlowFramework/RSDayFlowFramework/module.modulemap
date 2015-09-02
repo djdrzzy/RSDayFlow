@@ -1,8 +1,0 @@
-framework module Foo {
-    umbrella header "RSDayFlowFramework.h"
-    
-    header "RSDayFlow.h"
-    
-    export *
-    module * { export * }
-}

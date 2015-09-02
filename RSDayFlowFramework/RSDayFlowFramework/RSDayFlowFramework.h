@@ -14,10 +14,13 @@ FOUNDATION_EXPORT double RSDayFlowFrameworkVersionNumber;
 //! Project version string for RSDayFlowFramework.
 FOUNDATION_EXPORT const unsigned char RSDayFlowFrameworkVersionString[];
 
-#import "RSDFDatePickerView.h"
-#import "RSDFDatePickerDate.h"
-#import "RSDFDatePickerDaysOfWeekView.h"
-#import "RSDFDatePickerCollectionView.h"
-#import "RSDFDatePickerCollectionViewLayout.h"
-#import "RSDFDatePickerMonthHeader.h"
-#import "RSDFDatePickerDayCell.h"
+// In this header, you should import all the public headers of your framework using statements like #import <RSDayFlowFramework/PublicHeader.h>
+
+
+#import <RSDayFlowFramework/RSDFDatePickerView.h>
+#import <RSDayFlowFramework/RSDFDatePickerDate.h>
+#import <RSDayFlowFramework/RSDFDatePickerDaysOfWeekView.h>
+#import <RSDayFlowFramework/RSDFDatePickerCollectionView.h>
+#import <RSDayFlowFramework/RSDFDatePickerCollectionViewLayout.h>
+#import <RSDayFlowFramework/RSDFDatePickerMonthHeader.h>
+#import <RSDayFlowFramework/RSDFDatePickerDayCell.h>
