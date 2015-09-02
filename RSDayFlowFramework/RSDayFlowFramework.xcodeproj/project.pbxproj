@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		15103E371B968E1F00B35B54 /* RSDayFlowFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 15103E361B968E1F00B35B54 /* RSDayFlowFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15103E3D1B968E1F00B35B54 /* RSDayFlowFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15103E311B968E1F00B35B54 /* RSDayFlowFramework.framework */; };
-		15103E441B968E1F00B35B54 /* RSDayFlowFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15103E431B968E1F00B35B54 /* RSDayFlowFrameworkTests.m */; };
 		15103E5E1B968EA400B35B54 /* NSCalendar+RSDFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 15103E4E1B968EA400B35B54 /* NSCalendar+RSDFAdditions.h */; };
 		15103E5F1B968EA400B35B54 /* NSCalendar+RSDFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 15103E4F1B968EA400B35B54 /* NSCalendar+RSDFAdditions.m */; };
 		15103E601B968EA400B35B54 /* RSDayFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 15103E501B968EA400B35B54 /* RSDayFlow.h */; };
@@ -28,23 +26,10 @@
 		15103E6D1B968EA400B35B54 /* RSDFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15103E5D1B968EA400B35B54 /* RSDFDatePickerView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		15103E3E1B968E1F00B35B54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 15103E281B968E1F00B35B54 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15103E301B968E1F00B35B54;
-			remoteInfo = RSDayFlowFramework;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		15103E311B968E1F00B35B54 /* RSDayFlowFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSDayFlowFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15103E351B968E1F00B35B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15103E361B968E1F00B35B54 /* RSDayFlowFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDayFlowFramework.h; sourceTree = "<group>"; };
-		15103E3C1B968E1F00B35B54 /* RSDayFlowFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSDayFlowFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15103E421B968E1F00B35B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15103E431B968E1F00B35B54 /* RSDayFlowFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDayFlowFrameworkTests.m; sourceTree = "<group>"; };
 		15103E4E1B968EA400B35B54 /* NSCalendar+RSDFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+RSDFAdditions.h"; sourceTree = "<group>"; };
 		15103E4F1B968EA400B35B54 /* NSCalendar+RSDFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+RSDFAdditions.m"; sourceTree = "<group>"; };
 		15103E501B968EA400B35B54 /* RSDayFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDayFlow.h; sourceTree = "<group>"; };
@@ -71,14 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15103E391B968E1F00B35B54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15103E3D1B968E1F00B35B54 /* RSDayFlowFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				15103E331B968E1F00B35B54 /* RSDayFlowFramework */,
-				15103E401B968E1F00B35B54 /* RSDayFlowFrameworkTests */,
 				15103E321B968E1F00B35B54 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				15103E311B968E1F00B35B54 /* RSDayFlowFramework.framework */,
-				15103E3C1B968E1F00B35B54 /* RSDayFlowFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,23 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				15103E351B968E1F00B35B54 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		15103E401B968E1F00B35B54 /* RSDayFlowFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				15103E431B968E1F00B35B54 /* RSDayFlowFrameworkTests.m */,
-				15103E411B968E1F00B35B54 /* Supporting Files */,
-			);
-			path = RSDayFlowFrameworkTests;
-			sourceTree = "<group>";
-		};
-		15103E411B968E1F00B35B54 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				15103E421B968E1F00B35B54 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -182,9 +140,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15103E301B968E1F00B35B54 /* RSDayFlowFramework */ = {
+		15103E301B968E1F00B35B54 /* RSDayFlow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15103E471B968E1F00B35B54 /* Build configuration list for PBXNativeTarget "RSDayFlowFramework" */;
+			buildConfigurationList = 15103E471B968E1F00B35B54 /* Build configuration list for PBXNativeTarget "RSDayFlow" */;
 			buildPhases = (
 				15103E2C1B968E1F00B35B54 /* Sources */,
 				15103E2D1B968E1F00B35B54 /* Frameworks */,
@@ -195,28 +153,10 @@
 			);
 			dependencies = (
 			);
-			name = RSDayFlowFramework;
+			name = RSDayFlow;
 			productName = RSDayFlowFramework;
 			productReference = 15103E311B968E1F00B35B54 /* RSDayFlowFramework.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		15103E3B1B968E1F00B35B54 /* RSDayFlowFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 15103E4A1B968E1F00B35B54 /* Build configuration list for PBXNativeTarget "RSDayFlowFrameworkTests" */;
-			buildPhases = (
-				15103E381B968E1F00B35B54 /* Sources */,
-				15103E391B968E1F00B35B54 /* Frameworks */,
-				15103E3A1B968E1F00B35B54 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				15103E3F1B968E1F00B35B54 /* PBXTargetDependency */,
-			);
-			name = RSDayFlowFrameworkTests;
-			productName = RSDayFlowFrameworkTests;
-			productReference = 15103E3C1B968E1F00B35B54 /* RSDayFlowFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -228,9 +168,6 @@
 				ORGANIZATIONNAME = "Daniel Drzimotta";
 				TargetAttributes = {
 					15103E301B968E1F00B35B54 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					15103E3B1B968E1F00B35B54 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -247,21 +184,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15103E301B968E1F00B35B54 /* RSDayFlowFramework */,
-				15103E3B1B968E1F00B35B54 /* RSDayFlowFrameworkTests */,
+				15103E301B968E1F00B35B54 /* RSDayFlow */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		15103E2F1B968E1F00B35B54 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15103E3A1B968E1F00B35B54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,23 +214,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15103E381B968E1F00B35B54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15103E441B968E1F00B35B54 /* RSDayFlowFrameworkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		15103E3F1B968E1F00B35B54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 15103E301B968E1F00B35B54 /* RSDayFlowFramework */;
-			targetProxy = 15103E3E1B968E1F00B35B54 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		15103E451B968E1F00B35B54 /* Debug */ = {
@@ -422,36 +335,6 @@
 			};
 			name = Release;
 		};
-		15103E4B1B968E1F00B35B54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RSDayFlowFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		15103E4C1B968E1F00B35B54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RSDayFlowFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,21 +347,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15103E471B968E1F00B35B54 /* Build configuration list for PBXNativeTarget "RSDayFlowFramework" */ = {
+		15103E471B968E1F00B35B54 /* Build configuration list for PBXNativeTarget "RSDayFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15103E481B968E1F00B35B54 /* Debug */,
 				15103E491B968E1F00B35B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		15103E4A1B968E1F00B35B54 /* Build configuration list for PBXNativeTarget "RSDayFlowFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				15103E4B1B968E1F00B35B54 /* Debug */,
-				15103E4C1B968E1F00B35B54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

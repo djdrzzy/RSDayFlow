@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "15103E301B968E1F00B35B54"
-               BuildableName = "RSDayFlowFramework.framework"
-               BlueprintName = "RSDayFlowFramework"
+               BuildableName = "RSDayFlow.framework"
+               BlueprintName = "RSDayFlow"
                ReferencedContainer = "container:RSDayFlowFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -57,8 +57,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15103E301B968E1F00B35B54"
-            BuildableName = "RSDayFlowFramework.framework"
-            BlueprintName = "RSDayFlowFramework"
+            BuildableName = "RSDayFlow.framework"
+            BlueprintName = "RSDayFlow"
             ReferencedContainer = "container:RSDayFlowFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15103E301B968E1F00B35B54"
-            BuildableName = "RSDayFlowFramework.framework"
-            BlueprintName = "RSDayFlowFramework"
+            BuildableName = "RSDayFlow.framework"
+            BlueprintName = "RSDayFlow"
             ReferencedContainer = "container:RSDayFlowFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -94,8 +94,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15103E301B968E1F00B35B54"
-            BuildableName = "RSDayFlowFramework.framework"
-            BlueprintName = "RSDayFlowFramework"
+            BuildableName = "RSDayFlow.framework"
+            BlueprintName = "RSDayFlow"
             ReferencedContainer = "container:RSDayFlowFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
