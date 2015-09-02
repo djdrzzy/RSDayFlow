@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "15F71A4B1B9697D400825CFF"
-               BuildableName = "RSDayFlowFramework.framework"
+               BuildableName = "RSDayFlow.framework"
                BlueprintName = "RSDayFlowFramework"
                ReferencedContainer = "container:RSDayFlowFramework.xcodeproj">
             </BuildableReference>
@@ -37,10 +37,10 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -57,26 +57,29 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15F71A4B1B9697D400825CFF"
-            BuildableName = "RSDayFlowFramework.framework"
+            BuildableName = "RSDayFlow.framework"
             BlueprintName = "RSDayFlowFramework"
             ReferencedContainer = "container:RSDayFlowFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15F71A4B1B9697D400825CFF"
-            BuildableName = "RSDayFlowFramework.framework"
+            BuildableName = "RSDayFlow.framework"
             BlueprintName = "RSDayFlowFramework"
             ReferencedContainer = "container:RSDayFlowFramework.xcodeproj">
          </BuildableReference>
@@ -85,16 +88,16 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15F71A4B1B9697D400825CFF"
-            BuildableName = "RSDayFlowFramework.framework"
+            BuildableName = "RSDayFlow.framework"
             BlueprintName = "RSDayFlowFramework"
             ReferencedContainer = "container:RSDayFlowFramework.xcodeproj">
          </BuildableReference>
